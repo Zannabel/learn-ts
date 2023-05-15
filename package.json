@@ -1,0 +1,48 @@
+{
+  "name": "learn-ts",
+  "version": "1.0.0",
+  "description": "Proyecto para aprender las bases de Typescript",
+  "main": "index.js",
+  "scripts": {
+    "start:exercise-1": "tsc-watch --onSuccess \"node dist/basics/exercise-1/app.js\"",
+    "start:exercise-2": "tsc-watch --onSuccess \"node dist/basics/exercise-2/poo-basic.js\"",
+    "start:exercise-3": "tsc-watch --onSuccess \"node dist/basics/exercise-3/interfaces.js\"",
+    "start:exercise-4": "tsc-watch --onSuccess \"node dist/basics/exercise-4/main_empleados.js\"",
+    "start:exercise-5": "tsc-watch --onSuccess \"node dist/basics/exercise-5/conversor.js\"",
+    "start:poo": "tsc-watch --onSuccess \"node dist/poo/main_poo.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zannabel/learn-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zannabel/learn-ts/issues"
+  },
+  "homepage": "https://github.com/Zannabel/learn-ts#readme",
+  "devDependencies": {
+    "tsc-watch": "^6.0.4",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "cross-spawn": "^7.0.3",
+    "duplexer": "^0.1.2",
+    "from": "^0.1.7",
+    "event-stream": "^3.3.4",
+    "map-stream": "^0.1.0",
+    "isexe": "^2.0.0",
+    "path-key": "^3.1.1",
+    "node-cleanup": "^2.1.2",
+    "pause-stream": "^0.0.11",
+    "shebang-command": "^2.0.0",
+    "ps-tree": "^1.2.0",
+    "shebang-regex": "^3.0.0",
+    "split": "^0.3.3",
+    "stream-combiner": "^0.0.4",
+    "through": "^2.3.8",
+    "string-argv": "^0.3.2",
+    "which": "^2.0.2"
+  }
+}
