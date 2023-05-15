@@ -14,6 +14,7 @@ export class Mujer implements IPersona {
     }
 }
 
+// PRIMER INTENTO
 
 // class Mujer {
 //     nombre: string;
